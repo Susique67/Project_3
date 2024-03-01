@@ -1,14 +1,14 @@
 3. Python projekt - Akademie Engeto
 
-Popis projektu
+Popis projektu:
 Tento projekt slouží k získání výsledků z parlamentních voleb 2017 z webových stránek volby.cz.
 
-Instalace knihoven
+Instalace knihoven:
 Použité knihovny v tomto projektu jsou uloženy v souboru requirements.txt. Pro instalaci je vhodné použít nové virtuální prostředí v prostředí VS Code a pomocí terminálu nainstalovat knihovny příkazem:
 
 pip install -r requirements.txt
 
-Spuštění projektu
+Spuštění projektu:
 Celý skript je uložen do souboru election_scraper.py. Pro spuštění projektu je třeba využít příkazového řádku v terminálu. Ke spuštění potřebujeme dva argumenty, první argument je URL adresa vybraného územního celku a druhý argument je název csv souboru, do kterého chceme uložit získaná data. Do terminálu musíme zadat příkaz:
 
 python election_scraper.py <URL adresa uzemniho celku> <nazev csv souboru pro zapsani> 
